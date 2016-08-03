@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2390BA01B6B938E0032B884 /* CLConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2390B9F1B6B938E0032B884 /* CLConnection.h */; };
+		C2390BA21B6B938E0032B884 /* CLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C2390BA11B6B938E0032B884 /* CLConnection.m */; };
+		C2390BA81B6B938E0032B884 /* libCLConnection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2390B9C1B6B938E0032B884 /* libCLConnection.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2390BA91B6B938E0032B884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2390B941B6B938E0032B884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2390B9B1B6B938E0032B884;
+			remoteInfo = CLConnection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2390B9A1B6B938E0032B884 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C2390BA01B6B938E0032B884 /* CLConnection.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C2390B9C1B6B938E0032B884 /* libCLConnection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCLConnection.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2390B9F1B6B938E0032B884 /* CLConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLConnection.h; sourceTree = "<group>"; };
+		C2390BA11B6B938E0032B884 /* CLConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLConnection.m; sourceTree = "<group>"; };
+		C2390BA71B6B938E0032B884 /* CLConnectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLConnectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2390BAD1B6B938E0032B884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2390B991B6B938E0032B884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2390BA41B6B938E0032B884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2390BA81B6B938E0032B884 /* libCLConnection.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2390B931B6B938E0032B884 = {
+			isa = PBXGroup;
+			children = (
+				C2390B9E1B6B938E0032B884 /* CLConnection */,
+				C2390BAB1B6B938E0032B884 /* CLConnectionTests */,
+				C2390B9D1B6B938E0032B884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2390B9D1B6B938E0032B884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2390B9C1B6B938E0032B884 /* libCLConnection.a */,
+				C2390BA71B6B938E0032B884 /* CLConnectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2390B9E1B6B938E0032B884 /* CLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				C2390B9F1B6B938E0032B884 /* CLConnection.h */,
+				C2390BA11B6B938E0032B884 /* CLConnection.m */,
+			);
+			path = CLConnection;
+			sourceTree = "<group>";
+		};
+		C2390BAB1B6B938E0032B884 /* CLConnectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2390BAC1B6B938E0032B884 /* Supporting Files */,
+			);
+			path = CLConnectionTests;
+			sourceTree = "<group>";
+		};
+		C2390BAC1B6B938E0032B884 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2390BAD1B6B938E0032B884 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2390B9B1B6B938E0032B884 /* CLConnection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2390BB01B6B938E0032B884 /* Build configuration list for PBXNativeTarget "CLConnection" */;
+			buildPhases = (
+				C2390B981B6B938E0032B884 /* Sources */,
+				C2390B991B6B938E0032B884 /* Frameworks */,
+				C2390B9A1B6B938E0032B884 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLConnection;
+			productName = CLConnection;
+			productReference = C2390B9C1B6B938E0032B884 /* libCLConnection.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C2390BA61B6B938E0032B884 /* CLConnectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2390BB31B6B938E0032B884 /* Build configuration list for PBXNativeTarget "CLConnectionTests" */;
+			buildPhases = (
+				C2390BA31B6B938E0032B884 /* Sources */,
+				C2390BA41B6B938E0032B884 /* Frameworks */,
+				C2390BA51B6B938E0032B884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2390BAA1B6B938E0032B884 /* PBXTargetDependency */,
+			);
+			name = CLConnectionTests;
+			productName = CLConnectionTests;
+			productReference = C2390BA71B6B938E0032B884 /* CLConnectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2390B941B6B938E0032B884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = cheeselemon;
+				TargetAttributes = {
+					C2390B9B1B6B938E0032B884 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C2390BA61B6B938E0032B884 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C2390B971B6B938E0032B884 /* Build configuration list for PBXProject "CLConnection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2390B931B6B938E0032B884;
+			productRefGroup = C2390B9D1B6B938E0032B884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2390B9B1B6B938E0032B884 /* CLConnection */,
+				C2390BA61B6B938E0032B884 /* CLConnectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2390BA51B6B938E0032B884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2390B981B6B938E0032B884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2390BA21B6B938E0032B884 /* CLConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2390BA31B6B938E0032B884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2390BAA1B6B938E0032B884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2390B9B1B6B938E0032B884 /* CLConnection */;
+			targetProxy = C2390BA91B6B938E0032B884 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2390BAE1B6B938E0032B884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2390BAF1B6B938E0032B884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2390BB11B6B938E0032B884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C2390BB21B6B938E0032B884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C2390BB41B6B938E0032B884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CLConnectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2390BB51B6B938E0032B884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CLConnectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2390B971B6B938E0032B884 /* Build configuration list for PBXProject "CLConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2390BAE1B6B938E0032B884 /* Debug */,
+				C2390BAF1B6B938E0032B884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2390BB01B6B938E0032B884 /* Build configuration list for PBXNativeTarget "CLConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2390BB11B6B938E0032B884 /* Debug */,
+				C2390BB21B6B938E0032B884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2390BB31B6B938E0032B884 /* Build configuration list for PBXNativeTarget "CLConnectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2390BB41B6B938E0032B884 /* Debug */,
+				C2390BB51B6B938E0032B884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2390B941B6B938E0032B884 /* Project object */;
+}
